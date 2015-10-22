@@ -62,9 +62,9 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		for(int i=0;i<command.length();i++) {
-			if("l".equals(command.charAt(i))) {
+			if("l".equals(String.valueOf(command.charAt(i)))) {
 				this.orientation--;
-			} else if("r".equals(command.charAt(i))) {
+			} else if("r".equals(String.valueOf(command.charAt(i)))) {
 				this.orientation++;
 			}
 			if(this.orientation < 0) {
