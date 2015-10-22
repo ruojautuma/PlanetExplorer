@@ -41,3 +41,6 @@ RefactoringAction 1445504368969 TestPlanetExplorer.java RENAME testP=>void testP
 RefactoringAction 1445504370984 TestPlanetExplorer.java RENAME testPlanetSize=>void testPlanetSizeHundred FIELD
 RefactoringAction 1445504378001 TestPlanetExplorer.java RENAME testPlanetSizeHundred=>void testPlanetSizeHundredByHundredTwoObstacles() METHOD
 EditAction 1445504583526 TestPlanetExplorer.java 778 2 8 2
+UnitTestCaseAction 1445504605418 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445504605419 TestPlanetExplorer FAIL
+EditAction 1445505259085 PlanetExplorer.java 2116 5 11 0

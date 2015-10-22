@@ -25,11 +25,19 @@ public class PlanetExplorer {
 	}
 	
 	private void parseObstacles(String obstacles) {
-		
+		obstacles = obstacles.trim();
+		obstacles = obstacles.replaceAll("(", "");
+		String[] obs = obstacles.split(")");
+		for(String tmp : obs) {
+			String[] xy = tmp.split(",");
+			int x = Integer.parseInt(xy[0]);
+			int y = Integer.parseInt(xy[1]);
+			this.planet[x][y] = OBS;
+		}		
 	}
 	
 	public boolean isObstacleAt(int x, int y) {
-		return false;
+		return (this.planet[x][y] == OBS);
 	}
 	
 	public String executeCommand(String command){
