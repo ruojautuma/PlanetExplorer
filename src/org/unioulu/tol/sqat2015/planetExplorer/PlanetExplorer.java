@@ -66,10 +66,16 @@ public class PlanetExplorer {
 				this.orientate(0);
 			} else if("r".equals(String.valueOf(command.charAt(i)))) {
 				this.orientate(1);
+			} else if("f".equals(String.valueOf(command.charAt(i)))) {
+				this.forward();
 			}
 		}
 		
 		return null;
+	}
+	
+	private void forward() {
+		
 	}
 	
 	private void orientate(int ori) {

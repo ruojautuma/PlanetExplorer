@@ -47,3 +47,5 @@ UnitTestSessionAction 1445509383877 TestPlanetExplorer FAIL
 RefactoringAction 1445509402114 PlanetExplorer.java ADD void orientate(String) METHOD
 RefactoringAction 1445509557466 PlanetExplorer.java RENAME orientate(String)=>void orientate(int) METHOD
 EditAction 1445509600855 PlanetExplorer.java 3055 8 17 0
+RefactoringAction 1445509642929 PlanetExplorer.java ADD void forward() METHOD
+EditAction 1445509643514 PlanetExplorer.java 3177 9 17 0
