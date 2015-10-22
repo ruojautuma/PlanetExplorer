@@ -72,3 +72,7 @@ RefactoringAction 1445506196579 PlanetExplorer.java RENAME pos=>int posY FIELD
 RefactoringAction 1445506260493 PlanetExplorer.java ADD int or FIELD
 RefactoringAction 1445506263613 PlanetExplorer.java RENAME or=>int orientation FIELD
 EditAction 1445506281475 PlanetExplorer.java 2349 5 12 0
+RefactoringAction 1445506312083 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1445506315702 PlanetExplorer.java RENAME get=>int FIELD
+RefactoringAction 1445506316747 PlanetExplorer.java RENAME getPositionXY=>int METHOD
+EditAction 1445506335405 PlanetExplorer.java 2436 6 13 0
