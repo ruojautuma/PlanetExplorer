@@ -14,3 +14,11 @@ RefactoringAction 1445503489591 PlanetExplorer.java ADD int FIELD
 RefactoringAction 1445503504666 PlanetExplorer.java ADD int obs FIELD
 RefactoringAction 1445503507189 PlanetExplorer.java RENAME obs=>int OBS FIELD
 EditAction 1445503638996 PlanetExplorer.java 1475 2 2 0
+RefactoringAction 1445503667288 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1445503669307 PlanetExplorer.java RENAME get=>int FIELD
+RefactoringAction 1445503670826 PlanetExplorer.java RENAME getPlanetDime=>int FIELD
+RefactoringAction 1445503674345 PlanetExplorer.java RENAME getPlanetDimensions=>int FIELD
+RefactoringAction 1445503678360 PlanetExplorer.java RENAME getPlanetDimensionsXY=>int METHOD
+RefactoringAction 1445503761048 PlanetExplorer.java ADD int planetX FIELD
+RefactoringAction 1445503764069 PlanetExplorer.java ADD int planetY FIELD
+EditAction 1445503825397 PlanetExplorer.java 1643 3 5 0

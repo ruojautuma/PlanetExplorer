@@ -6,7 +6,7 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 public class PlanetExplorer {
 	private int[][] planet;
 	private static final int OBS = 0x08571C13; //see what i did there? :)
-	
+	private int planetX, planetY;
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -14,7 +14,13 @@ public class PlanetExplorer {
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
+		this.planetX = x;
+		this.planetY = y;
 		this.planet = new int[x][y];
+	}
+	
+	public int[] getPlanetDimensionsXY() {
+		return new int[]{this.planetX, this.planetY};
 	}
 	
 	public String executeCommand(String command){
