@@ -7,7 +7,7 @@ import org.junit.Test;
 public class TestPlanetExplorer {
 
 	@Test
-	public void testPlanetSizeHundredByHundredNoObsticles() {
+	public void testPlanetSizeHundredByHundredNoObstacles() {
 		fail("Not yet implemented");
 	}
 }

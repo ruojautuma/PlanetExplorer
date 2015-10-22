@@ -22,3 +22,8 @@ RefactoringAction 1445503678360 PlanetExplorer.java RENAME getPlanetDimensionsXY
 RefactoringAction 1445503761048 PlanetExplorer.java ADD int planetX FIELD
 RefactoringAction 1445503764069 PlanetExplorer.java ADD int planetY FIELD
 EditAction 1445503825397 PlanetExplorer.java 1643 3 5 0
+RefactoringAction 1445503858509 PlanetExplorer.java ADD void par FIELD
+RefactoringAction 1445503859527 PlanetExplorer.java RENAME par=>void parse FIELD
+RefactoringAction 1445503861544 PlanetExplorer.java RENAME parse=>void parseObstac FIELD
+RefactoringAction 1445503863063 PlanetExplorer.java RENAME parseObstac=>void parseObstacles() METHOD
+EditAction 1445503870130 TestPlanetExplorer.java 265 1 1 0
