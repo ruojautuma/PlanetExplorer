@@ -68,4 +68,8 @@ public class PlanetExplorer {
 	public int[] getPositionXY() {
 		return new int[] {this.posX, this.posY};
 	}
+	
+	public String getOrientation() {
+		return this.oriental[this.orientation];
+	}
 }
