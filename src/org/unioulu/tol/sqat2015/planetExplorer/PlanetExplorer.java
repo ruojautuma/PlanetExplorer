@@ -75,7 +75,15 @@ public class PlanetExplorer {
 	}
 	
 	private void forward() {
-		
+		if(this.orientation == 0) {
+			this.posY++;
+		} else if(this.orientation == 1) {
+			this.posX++;
+		} if(this.orientation == 2) {
+			this.posY--;
+		} if(this.orientation == 3) {
+			this.posX--;
+		}
 	}
 	
 	private void orientate(int ori) {
