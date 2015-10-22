@@ -26,4 +26,9 @@ public class TestPlanetExplorer {
 		
 		assertEquals(expected, actual);
 	}
+	
+	@Test
+	public void testExplorerPositionZeroAndZeroOrientationNorth() {
+		fail("not implemented");
+	}
 }
