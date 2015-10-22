@@ -50,4 +50,16 @@ public class TestPlanetExplorer {
 		
 		assertEquals(expected, actual);
 	}
+	
+	@Test
+	public void testTheConamiCodeOrientationNorth() {
+		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
+		
+		pe.executeCommand("up up down down left right left right b a - do the conami code");
+		
+		String expected = "N";
+		String actual = pe.getOrientation();
+		
+		assertEquals(expected, actual);		
+	}
 }
