@@ -23,6 +23,14 @@ public class PlanetExplorer {
 		return new int[]{this.planetX, this.planetY};
 	}
 	
+	private void parseObstacles() {
+		
+	}
+	
+	public boolean isObstacleAt(int x, int y) {
+		return false;
+	}
+	
 	public String executeCommand(String command){
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
