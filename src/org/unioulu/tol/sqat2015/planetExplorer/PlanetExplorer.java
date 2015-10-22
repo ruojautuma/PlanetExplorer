@@ -24,6 +24,9 @@ public class PlanetExplorer {
 		return new int[]{this.planetX, this.planetY};
 	}
 	
+	/**
+	 * Not the prettiest solution, but I don't want to spend all day on regexp
+	 */
 	private void parseObstacles(String obstacles) {
 		if(!(obstacles.startsWith("(") && obstacles.endsWith(")"))) {
 			return;
