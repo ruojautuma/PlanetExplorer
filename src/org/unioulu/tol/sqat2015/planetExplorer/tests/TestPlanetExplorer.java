@@ -29,6 +29,13 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testExplorerPositionZeroAndZeroOrientationNorth() {
-		fail("not implemented");
+		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
+		
+		boolean expected = (new int[]{0,0}).equals(new int[]{0,0}) &
+							"N".equals("N");
+		boolean actual = (new int[]{0,0}).equals(pe.getPositionXY()) &
+				pe.getOrientation().equals("N");
+		
+		assertEquals(expected, actual);
 	}
 }

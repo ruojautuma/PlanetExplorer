@@ -5,3 +5,5 @@ EditAction 1445507198151 PlanetExplorer.java 2498 6 13 0
 EditAction 1445507211115 PlanetExplorer.java 2501 6 13 0
 RefactoringAction 1445507379936 PlanetExplorer.java ADD String getOrientation() METHOD
 EditAction 1445507395386 PlanetExplorer.java 2586 7 14 0
+FileOpenedAction 1445507405291 TestPlanetExplorer.java 887 3 9 2
+EditAction 1445507754571 TestPlanetExplorer.java 1152 3 12 3
