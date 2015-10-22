@@ -31,3 +31,6 @@ RefactoringAction 1445503894196 PlanetExplorer.java ADD boolean isObstacle FIELD
 RefactoringAction 1445503897214 PlanetExplorer.java RENAME isObstacle=>boolean isObstacleAt FIELD
 RefactoringAction 1445503899733 PlanetExplorer.java RENAME isObstacleAt=>boolean isObstacleAt(int, int) METHOD
 EditAction 1445503906651 PlanetExplorer.java 1758 5 6 0
+RefactoringAction 1445503920810 PlanetExplorer.java RENAME parseObstacles()=>void parseObstacles(String) METHOD
+RefactoringAction 1445504080533 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
+EditAction 1445504297962 TestPlanetExplorer.java 489 1 4 1

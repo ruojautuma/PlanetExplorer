@@ -17,13 +17,14 @@ public class PlanetExplorer {
 		this.planetX = x;
 		this.planetY = y;
 		this.planet = new int[x][y];
+		this.parseObstacles(obstacles);
 	}
 	
 	public int[] getPlanetDimensionsXY() {
 		return new int[]{this.planetX, this.planetY};
 	}
 	
-	private void parseObstacles() {
+	private void parseObstacles(String obstacles) {
 		
 	}
 	
