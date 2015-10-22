@@ -38,4 +38,14 @@ public class TestPlanetExplorer {
 		
 		assertEquals(expected, actual);
 	}
+	
+	@Test
+	public void testMoveRightExplorerOrientationEast() {
+		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
+		
+		pe.executeCommand("r");
+		
+		String expected = "E";
+		String actual = pe.getOrientation();
+	}
 }

@@ -7,3 +7,8 @@ RefactoringAction 1445507379936 PlanetExplorer.java ADD String getOrientation() 
 EditAction 1445507395386 PlanetExplorer.java 2586 7 14 0
 FileOpenedAction 1445507405291 TestPlanetExplorer.java 887 3 9 2
 EditAction 1445507754571 TestPlanetExplorer.java 1152 3 12 3
+UnitTestCaseAction 1445507784213 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445507784220 TestPlanetExplorer OK
+RefactoringAction 1445507934082 TestPlanetExplorer.java ADD void testMoveRightExplorerOrientation FIELD
+RefactoringAction 1445507937618 TestPlanetExplorer.java RENAME testMoveRightExplorerOrientation=>void testMoveRightExplorerOrientationEast() METHOD
+EditAction 1445508004177 TestPlanetExplorer.java 1380 4 16 3
