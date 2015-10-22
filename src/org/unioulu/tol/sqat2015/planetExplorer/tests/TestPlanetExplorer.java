@@ -16,4 +16,14 @@ public class TestPlanetExplorer {
 		
 		assertArrayEquals(expected, actual);
 	}
+	
+	@Test
+	public void testPlanetSizeHundredByHundredTwoObstacles() {
+		PlanetExplorer pe = new PlanetExplorer(100, 100, "(10,10)(64,32)");
+		
+		boolean expected = true;
+		boolean actual = pe.isObstacleAt(10, 10) & pe.isObstacleAt(64, 32);
+		
+		assertEquals(expected, actual);
+	}
 }

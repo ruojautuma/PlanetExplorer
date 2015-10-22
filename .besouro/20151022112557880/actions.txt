@@ -34,3 +34,10 @@ EditAction 1445503906651 PlanetExplorer.java 1758 5 6 0
 RefactoringAction 1445503920810 PlanetExplorer.java RENAME parseObstacles()=>void parseObstacles(String) METHOD
 RefactoringAction 1445504080533 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
 EditAction 1445504297962 TestPlanetExplorer.java 489 1 4 1
+UnitTestCaseAction 1445504304507 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445504304508 TestPlanetExplorer OK
+RefactoringAction 1445504365455 TestPlanetExplorer.java ADD void testP FIELD
+RefactoringAction 1445504368969 TestPlanetExplorer.java RENAME testP=>void testPlanetSize FIELD
+RefactoringAction 1445504370984 TestPlanetExplorer.java RENAME testPlanetSize=>void testPlanetSizeHundred FIELD
+RefactoringAction 1445504378001 TestPlanetExplorer.java RENAME testPlanetSizeHundred=>void testPlanetSizeHundredByHundredTwoObstacles() METHOD
+EditAction 1445504583526 TestPlanetExplorer.java 778 2 8 2
