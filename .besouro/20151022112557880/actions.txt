@@ -64,3 +64,11 @@ RefactoringAction 1445506045602 TestPlanetExplorer.java RENAME testExplorerPosit
 RefactoringAction 1445506048706 TestPlanetExplorer.java RENAME testExplorerPositionZeroAndZero=>void testExplorerPositionZeroAndZeroOrientation FIELD
 RefactoringAction 1445506051296 TestPlanetExplorer.java RENAME testExplorerPositionZeroAndZeroOrientation=>void testExplorerPositionZeroAndZeroOrientationNorth() METHOD
 EditAction 1445506163226 TestPlanetExplorer.java 887 3 9 2
+UnitTestCaseAction 1445506170199 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445506170199 TestPlanetExplorer FAIL
+RefactoringAction 1445506192944 PlanetExplorer.java ADD int pos FIELD
+RefactoringAction 1445506195019 PlanetExplorer.java ADD int posX FIELD
+RefactoringAction 1445506196579 PlanetExplorer.java RENAME pos=>int posY FIELD
+RefactoringAction 1445506260493 PlanetExplorer.java ADD int or FIELD
+RefactoringAction 1445506263613 PlanetExplorer.java RENAME or=>int orientation FIELD
+EditAction 1445506281475 PlanetExplorer.java 2349 5 12 0
