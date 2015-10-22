@@ -8,3 +8,9 @@ RefactoringAction 1445503285657 TestPlanetExplorer.java RENAME testPlanetSizeHun
 RefactoringAction 1445503287173 TestPlanetExplorer.java RENAME testPlanetSizeHundredByHundredNoO()=>void testPlanetSizeHundredByHundredNoObs() METHOD
 RefactoringAction 1445503304690 TestPlanetExplorer.java RENAME testPlanetSizeHundredByHundredNoObs()=>void testPlanetSizeHundredByHundredNoObsticles() METHOD
 EditAction 1445503312476 TestPlanetExplorer.java 265 1 1 0
+UnitTestCaseAction 1445503343996 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445503344003 TestPlanetExplorer FAIL
+RefactoringAction 1445503489591 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1445503504666 PlanetExplorer.java ADD int obs FIELD
+RefactoringAction 1445503507189 PlanetExplorer.java RENAME obs=>int OBS FIELD
+EditAction 1445503638996 PlanetExplorer.java 1475 2 2 0
