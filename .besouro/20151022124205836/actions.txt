@@ -42,3 +42,8 @@ RefactoringAction 1445509270020 TestPlanetExplorer.java RENAME test=>void testPo
 RefactoringAction 1445509272543 TestPlanetExplorer.java RENAME testPositionOne=>void testPositionOneAndZero FIELD
 RefactoringAction 1445509280065 TestPlanetExplorer.java RENAME testPositionOneAndZero=>void testPositionOneAndZero() METHOD
 EditAction 1445509373309 TestPlanetExplorer.java 2015 6 27 6
+UnitTestCaseAction 1445509383876 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445509383877 TestPlanetExplorer FAIL
+RefactoringAction 1445509402114 PlanetExplorer.java ADD void orientate(String) METHOD
+RefactoringAction 1445509557466 PlanetExplorer.java RENAME orientate(String)=>void orientate(int) METHOD
+EditAction 1445509600855 PlanetExplorer.java 3055 8 17 0

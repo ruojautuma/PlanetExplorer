@@ -63,18 +63,26 @@ public class PlanetExplorer {
 		 */
 		for(int i=0;i<command.length();i++) {
 			if("l".equals(String.valueOf(command.charAt(i)))) {
-				this.orientation--;
+				this.orientate(0);
 			} else if("r".equals(String.valueOf(command.charAt(i)))) {
-				this.orientation++;
-			}
-			if(this.orientation < 0) {
-				this.orientation = 3;
-			} else if(this.orientation > 3) {
-				this.orientation = 0;
+				this.orientate(1);
 			}
 		}
 		
 		return null;
+	}
+	
+	private void orientate(int ori) {
+		if(ori == 0) {
+			this.orientation--;
+		} else {
+			this.orientation++;
+		}
+		if(this.orientation < 0) {
+			this.orientation = 3;
+		} else if(this.orientation > 3) {
+			this.orientation = 0;
+		}
 	}
 	
 	public int[] getPositionXY() {
