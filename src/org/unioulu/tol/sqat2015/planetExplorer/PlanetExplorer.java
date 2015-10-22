@@ -37,7 +37,7 @@ public class PlanetExplorer {
 	}
 	
 	public boolean isObstacleAt(int x, int y) {
-		return (this.planet[x][y] == OBS);
+		return this.planet[x][y] == OBS;
 	}
 	
 	public String executeCommand(String command){
