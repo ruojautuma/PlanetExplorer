@@ -33,3 +33,12 @@ RefactoringAction 1445508999957 TestPlanetExplorer.java RENAME testTheConamiCode
 RefactoringAction 1445509002977 TestPlanetExplorer.java RENAME testTheConamiCodeOrientationNorth()=>void testTheConamiCodeOrientation() METHOD
 RefactoringAction 1445509175617 TestPlanetExplorer.java RENAME testTheConamiCodeOrientation()=>void testTheConamiCodeOrientationNorth() METHOD
 EditAction 1445509193839 TestPlanetExplorer.java 1746 5 22 5
+UnitTestCaseAction 1445509204396 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445509204397 TestPlanetExplorer OK
+UnitTestCaseAction 1445509211074 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445509211075 TestPlanetExplorer OK
+RefactoringAction 1445509265998 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1445509270020 TestPlanetExplorer.java RENAME test=>void testPositionOne FIELD
+RefactoringAction 1445509272543 TestPlanetExplorer.java RENAME testPositionOne=>void testPositionOneAndZero FIELD
+RefactoringAction 1445509280065 TestPlanetExplorer.java RENAME testPositionOneAndZero=>void testPositionOneAndZero() METHOD
+EditAction 1445509373309 TestPlanetExplorer.java 2015 6 27 6

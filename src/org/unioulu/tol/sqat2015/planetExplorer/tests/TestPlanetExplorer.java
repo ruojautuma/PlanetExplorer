@@ -62,4 +62,16 @@ public class TestPlanetExplorer {
 		
 		assertEquals(expected, actual);		
 	}
+	
+	@Test
+	public void testPositionOneAndZero() {
+		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
+		
+		pe.executeCommand("rf");
+		
+		int[] expected = new int[]{1,0};
+		int[] actual = pe.getPositionXY();
+		
+		assertArrayEquals(expected, actual);		
+	}
 }
