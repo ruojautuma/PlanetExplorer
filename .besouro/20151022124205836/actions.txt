@@ -50,3 +50,8 @@ EditAction 1445509600855 PlanetExplorer.java 3055 8 17 0
 RefactoringAction 1445509642929 PlanetExplorer.java ADD void forward() METHOD
 EditAction 1445509643514 PlanetExplorer.java 3177 9 17 0
 EditAction 1445509712905 PlanetExplorer.java 3381 9 20 0
+UnitTestCaseAction 1445509726549 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445509726551 TestPlanetExplorer OK
+RefactoringAction 1445509753391 PlanetExplorer.java ADD void forward()/2 METHOD
+RefactoringAction 1445509757416 PlanetExplorer.java RENAME forward()/2=>void backward() METHOD
+EditAction 1445509787368 PlanetExplorer.java 3709 10 23 0

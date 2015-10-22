@@ -68,6 +68,8 @@ public class PlanetExplorer {
 				this.orientate(1);
 			} else if("f".equals(String.valueOf(command.charAt(i)))) {
 				this.forward();
+			} else if("b".equals(String.valueOf(command.charAt(i)))) {
+				this.backward();
 			}
 		}
 		
@@ -83,6 +85,18 @@ public class PlanetExplorer {
 			this.posY--;
 		} if(this.orientation == 3) {
 			this.posX--;
+		}
+	}
+	
+	private void backward() {
+		if(this.orientation == 0) {
+			this.posY--;
+		} else if(this.orientation == 1) {
+			this.posX--;
+		} if(this.orientation == 2) {
+			this.posY++;
+		} if(this.orientation == 3) {
+			this.posX++;
 		}
 	}
 	
