@@ -63,7 +63,14 @@ public class PlanetExplorer {
 		 */
 		for(int i=0;i<command.length();i++) {
 			if("l".equals(command.charAt(i))) {
-				
+				this.orientation--;
+			} else if("r".equals(command.charAt(i))) {
+				this.orientation++;
+			}
+			if(this.orientation < 0) {
+				this.orientation = 3;
+			} else if(this.orientation > 3) {
+				this.orientation = 0;
 			}
 		}
 		
