@@ -47,5 +47,7 @@ public class TestPlanetExplorer {
 		
 		String expected = "E";
 		String actual = pe.getOrientation();
+		
+		assertEquals(expected, actual);
 	}
 }
