@@ -61,3 +61,5 @@ RefactoringAction 1445509836939 TestPlanetExplorer.java ADD void testPositionOne
 RefactoringAction 1445509840959 TestPlanetExplorer.java RENAME testPositionOneAndZero()/2=>void testPositionZeroAndZero() METHOD
 RefactoringAction 1445509843478 TestPlanetExplorer.java RENAME testPositionZeroAndZero()=>void testPositionZeroAndOne() METHOD
 EditAction 1445509852763 TestPlanetExplorer.java 2286 7 32 7
+UnitTestCaseAction 1445509864292 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445509864293 TestPlanetExplorer FAIL
