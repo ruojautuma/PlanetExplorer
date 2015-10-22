@@ -1,8 +1,8 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
-// ID:
-// Finish time:
+// ID: 134
+// Finish time: 13:30
 public class PlanetExplorer {
 	private int[][] planet;
 	private static final int OBS = 0x08571C13; //see what i did there? :)
