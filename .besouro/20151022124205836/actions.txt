@@ -55,3 +55,9 @@ UnitTestSessionAction 1445509726551 TestPlanetExplorer OK
 RefactoringAction 1445509753391 PlanetExplorer.java ADD void forward()/2 METHOD
 RefactoringAction 1445509757416 PlanetExplorer.java RENAME forward()/2=>void backward() METHOD
 EditAction 1445509787368 PlanetExplorer.java 3709 10 23 0
+UnitTestCaseAction 1445509807438 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445509807440 TestPlanetExplorer OK
+RefactoringAction 1445509836939 TestPlanetExplorer.java ADD void testPositionOneAndZero()/2 METHOD
+RefactoringAction 1445509840959 TestPlanetExplorer.java RENAME testPositionOneAndZero()/2=>void testPositionZeroAndZero() METHOD
+RefactoringAction 1445509843478 TestPlanetExplorer.java RENAME testPositionZeroAndZero()=>void testPositionZeroAndOne() METHOD
+EditAction 1445509852763 TestPlanetExplorer.java 2286 7 32 7

@@ -74,4 +74,17 @@ public class TestPlanetExplorer {
 		
 		assertArrayEquals(expected, actual);		
 	}
+	
+	@Test
+	public void testPositionZeroAndOne() {
+		PlanetExplorer pe = new PlanetExplorer(100, 100, "");
+		
+		pe.executeCommand("rb");
+		
+		int[] expected = new int[]{0,1};
+		int[] actual = pe.getPositionXY();
+		
+		assertArrayEquals(expected, actual);		
+	}
+
 }
