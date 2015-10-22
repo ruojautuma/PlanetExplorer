@@ -26,7 +26,7 @@ public class PlanetExplorer {
 	
 	private void parseObstacles(String obstacles) {
 		obstacles = obstacles.trim();
-		obstacles = obstacles.replaceAll("(", "");
+		obstacles = obstacles.replace("(", "");
 		String[] obs = obstacles.split(")");
 		for(String tmp : obs) {
 			String[] xy = tmp.split(",");
